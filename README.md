@@ -18,8 +18,11 @@
 ## リンク
 
 [google](https://google.com)
-[グーグル]:https://google.com
+
+[グーグル]: https://google.com
+
 [グーグル１][グーグル]
+
 [グーグル２][グーグル]
 
 ## 引用
