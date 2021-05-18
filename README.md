@@ -1,24 +1,64 @@
-# README
+# GQconverter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# マークダウン記法の例
 
-Things you may want to cover:
+## リスト
 
-* Ruby version
+- リスト
+- リスト
+  - ネスト
+  - ネスト
+    - ネストネスト
+- リスト
 
-* System dependencies
+1. リスト 1
+2. リスト 2
+3. リスト 3
 
-* Configuration
+## リンク
 
-* Database creation
+[google](https://google.com)
+[グーグル]:https://google.com
+[グーグル１][グーグル]
+[グーグル２][グーグル]
 
-* Database initialization
+## 引用
 
-* How to run the test suite
+> 引用 1
 
-* Services (job queues, cache servers, search engines, etc.)
+> > 引用２
 
-* Deployment instructions
+## コード
 
-* ...
+`コード`
+
+```
+コード
+が書ける
+```
+
+```javascript
+const test = "テスト";
+```
+
+## 画像
+
+![altを各部分](パスを各部分)
+
+## 文字の装飾
+
+_車体_
+**太字**
+**_車体太字_**
+~~訂正線~~
+
+## 水平線
+
+---
+
+## テーブル
+
+| 名前   | 年齢 |
+| ------ | ---- |
+| A さん | 20   |
+| B さん | 30   |
