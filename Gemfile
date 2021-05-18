@@ -54,3 +54,20 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ログイン
 gem 'devise'
+
+# テスト環境
+group :development, :test do
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'rspec-rails'
+  gem 'rspec_junit_formatter', '0.2.2' # for circleci
+  gem 'rspec-retry'
+  gem 'rspec-instafail'
+  gem 'spring-commands-rspec'
+  gem 'factory_bot'
+  gem "factory_bot_rails"
+  gem 'timecop'
+  gem 'brakeman'
+end
