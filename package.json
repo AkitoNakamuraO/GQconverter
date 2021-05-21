@@ -13,7 +13,10 @@
   "version": "0.1.0",
   "devDependencies": {
     "@prettier/plugin-ruby": "^1.5.5",
+    "@vue/compiler-sfc": "^3.0.11",
     "prettier": "^2.3.0",
+    "vue": "^3.0.11",
+    "vue-loader": "^16.2.0",
     "webpack-dev-server": "^3.11.2"
   }
 }
