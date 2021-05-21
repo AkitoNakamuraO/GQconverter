@@ -13,6 +13,7 @@ https://gq-converter.herokuapp.com/
 # テスト用アカウント
 
 メールアドレス: test@test
+
 パスワード: password
 
 # 利用方法
@@ -22,6 +23,8 @@ https://gq-converter.herokuapp.com/
 1.
 
 # 目指した課題解決
+
+主にフリーランスや成果報酬型の仕事をしている人が自分の報酬を時給に換算することで客観的に自分の報酬を確認することができる。
 
 # 要件定義
 
