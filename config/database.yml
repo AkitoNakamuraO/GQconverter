@@ -50,6 +50,4 @@ test:
 #
 production:
   <<: *default
-  database: gq_converter_production
-  username: gq_converter
-  password: <%= ENV['GQ_CONVERTER_DATABASE_PASSWORD'] %>
+  url: <%= ENV['CLEARDB_DATABASE_URL'] %>
