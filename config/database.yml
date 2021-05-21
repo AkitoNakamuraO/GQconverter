@@ -49,4 +49,5 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
+  # herokuの環境変数をmysqlからmysql2に変更しなければエラーが出ます。
   url: <%= ENV['CLEARDB_DATABASE_URL'] %>
