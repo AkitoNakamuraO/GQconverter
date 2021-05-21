@@ -36,4 +36,4 @@ yarn-debug.log*
 .yarn-integrity
 
 # データベース関連のファイル
-/config/database.yml
+# /config/database.yml
