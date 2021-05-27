@@ -4,6 +4,7 @@
   id: "home-data",
   data: {
     username: user_signed_in? ? current_user.name : "ゲスト",
+    start_time: DateTime.now
   }.to_json do %>
 <% end %>
 

@@ -8,12 +8,9 @@
 <script>
 export default {
   props: {
-    username: {
-      type: String,
-      default: "ゲスト",
-    },
+    username: String,
   },
-  data() {
+  setup(props) {
     return {};
   },
 };
