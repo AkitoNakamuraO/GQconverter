@@ -36,6 +36,10 @@ https://gq-converter.herokuapp.com/
 
 ![er_diagram](https://user-images.githubusercontent.com/74124955/119843129-36055d00-bf42-11eb-92b8-aaf5f1bc2923.png)
 
+# 画面設計
+
+![ui](https://user-images.githubusercontent.com/74124955/119844464-6994b700-bf43-11eb-9930-38c3cb6cfe87.png)
+
 # ローカルでの動作方法
 
 # マークダウン記法の例
