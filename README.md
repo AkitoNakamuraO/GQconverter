@@ -34,6 +34,8 @@ https://gq-converter.herokuapp.com/
 
 # データベース設計
 
+![er_diagram](https://user-images.githubusercontent.com/74124955/119843129-36055d00-bf42-11eb-92b8-aaf5f1bc2923.png)
+
 # ローカルでの動作方法
 
 # マークダウン記法の例
@@ -82,7 +84,7 @@ const test = "テスト";
 
 ## 画像
 
-![altを各部分](パスを各部分)
+![altを書く部分](パスを書く部分)
 
 ## 文字の装飾
 
