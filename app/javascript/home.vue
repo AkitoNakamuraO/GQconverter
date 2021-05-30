@@ -1,6 +1,6 @@
 <template>
-  <Header v-bind:username="jsonData.username"></Header>
-  <RecordWorking v-bind:start_time="jsonData.start_time"></RecordWorking>
+  <Header :username="data.username" :is_signed_in="data.is_signed_in"></Header>
+  <RecordWorking :start_time="data.start_time"></RecordWorking>
   <InputNewData></InputNewData>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     InputNewData,
   },
   props: {
-    jsonData: {
+    data: {
       type: Object,
       default: () => {},
     },
