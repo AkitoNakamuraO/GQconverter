@@ -2,13 +2,13 @@
   <header>
     <h1>GQconverter</h1>
     <div v-if="is_signed_in">
-      <a href="/users/sign_out">ログアウト</a>
+      <!-- <a href="/users/sign_out"><p @click="logout">ログアウト</p></a> -->
     </div>
     <div v-else>
-      <a href="/users/sign_up">新規登録</a>
-      <a href="/users/sign_in">ログイン</a>
+      <!-- <a href="/users/sign_up">新規登録</a>
+      <a href="/users/sign_in">ログイン</a> -->
     </div>
-    <div @click="displayUserInfo" class="username">{{ username }}</div>
+    <div class="username">{{ username }}</div>
   </header>
 </template>
 
@@ -19,10 +19,7 @@ export default {
     is_signed_in: Boolean,
   },
   setup(props) {
-    function displayUserInfo() {
-      alert("a");
-    }
-    return { displayUserInfo };
+    return {};
   },
 };
 </script>
