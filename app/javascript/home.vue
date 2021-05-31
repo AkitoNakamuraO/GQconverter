@@ -1,8 +1,10 @@
 <template>
   <Header :username="data.username" :is_signed_in="data.is_signed_in"></Header>
-  <ShowHourlyPay></ShowHourlyPay>
-  <RecordWorking :start_time="data.start_time"></RecordWorking>
-  <InputNewData></InputNewData>
+  <div class="container">
+    <ShowHourlyPay></ShowHourlyPay>
+    <RecordWorking :start_time="data.start_time"></RecordWorking>
+    <InputNewData></InputNewData>
+  </div>
 </template>
 
 <script>
