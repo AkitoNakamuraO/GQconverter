@@ -1,9 +1,15 @@
 <template>
-  <Header :username="data.username" :is_signed_in="data.is_signed_in"></Header>
+  <Header :username="initialData.username" :is_signed_in="initialData.is_signed_in"></Header>
   <div class="container">
     <ShowHourlyPay></ShowHourlyPay>
-    <RecordWorking :start_time="data.start_time"></RecordWorking>
-    <InputNewData></InputNewData>
+    <div class="row">
+      <div class="col">
+        <RecordWorking :user_id="1" :start_time="initialData.start_time"></RecordWorking>
+      </div>
+      <div class="col">
+        <InputNewData></InputNewData>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -21,7 +27,7 @@ export default {
     InputNewData,
   },
   props: {
-    data: {
+    initialData: {
       type: Object,
       default: () => {},
     },
